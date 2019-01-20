@@ -60,11 +60,11 @@
 		5CCEF4F921F4D70F0094AE1E /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
-				5CCEF4FA21F4D70F0094AE1E /* AppDelegate.swift */,
-				5CCEF4FC21F4D70F0094AE1E /* ViewController.swift */,
-				5CCEF4FE21F4D70F0094AE1E /* Main.storyboard */,
+				5CCEF51321F4F3D50094AE1E /* Model */,
+				5CCEF51221F4F3CC0094AE1E /* View */,
+				5CCEF51121F4F3C50094AE1E /* Controller */,
 				5CCEF50121F4D7110094AE1E /* Assets.xcassets */,
-				5CCEF50321F4D7110094AE1E /* LaunchScreen.storyboard */,
+				5CCEF4FA21F4D70F0094AE1E /* AppDelegate.swift */,
 				5CCEF50621F4D7110094AE1E /* Info.plist */,
 			);
 			path = "Abstract Factory";
@@ -78,6 +78,30 @@
 				5CCEF50E21F4ED030094AE1E /* AbstractFactory.003.jpeg */,
 			);
 			path = screens;
+			sourceTree = "<group>";
+		};
+		5CCEF51121F4F3C50094AE1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEF4FC21F4D70F0094AE1E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CCEF51221F4F3CC0094AE1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEF4FE21F4D70F0094AE1E /* Main.storyboard */,
+				5CCEF50321F4D7110094AE1E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CCEF51321F4F3D50094AE1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
