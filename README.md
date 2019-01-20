@@ -1,9 +1,11 @@
 #  Abstract Factory
 
 <div align = "center">
-<img src="/screens/FactoryMethod.png" width="60%">     
+<img src="/screens/AbstractFactory.001.jpeg" width="60%">     
 <br>
-<img src="/screens/Factory_info.jpeg" width="60%">     
+<img src="/screens/AbstractFactory.002.jpeg" width="60%">     
+<br>
+<img src="/screens/AbstractFactory.003.jpeg" width="60%">     
 <br>
 <img src="/screens/1.jpg" width="40%">        
 <img src="/screens/2.jpg" width="40%">       
@@ -18,6 +20,9 @@
 </p>
 
 [Demo video here]()
+
+## Определение
+**Абстрактная фабрика** - это порождающий паттерн проектирования, который позволяет создавать связанные объекты, не привызяваясь к конкретным классам.
 
 ## Main functionality
 * An app implements `Abstract Factory` pattern

@@ -23,6 +23,9 @@
 		5CCEF50421F4D7110094AE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CCEF50621F4D7110094AE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CCEF50D21F4D7320094AE1E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5CCEF50E21F4ED030094AE1E /* AbstractFactory.003.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AbstractFactory.003.jpeg; sourceTree = "<group>"; };
+		5CCEF50F21F4ED030094AE1E /* AbstractFactory.002.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AbstractFactory.002.jpeg; sourceTree = "<group>"; };
+		5CCEF51021F4ED030094AE1E /* AbstractFactory.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AbstractFactory.001.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,9 @@
 		5CCEF50C21F4D7230094AE1E /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				5CCEF51021F4ED030094AE1E /* AbstractFactory.001.jpeg */,
+				5CCEF50F21F4ED030094AE1E /* AbstractFactory.002.jpeg */,
+				5CCEF50E21F4ED030094AE1E /* AbstractFactory.003.jpeg */,
 			);
 			path = screens;
 			sourceTree = "<group>";
