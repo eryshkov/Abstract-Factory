@@ -12,6 +12,9 @@
 		5CCEF50021F4D70F0094AE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCEF4FE21F4D70F0094AE1E /* Main.storyboard */; };
 		5CCEF50221F4D7110094AE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCEF50121F4D7110094AE1E /* Assets.xcassets */; };
 		5CCEF50521F4D7110094AE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCEF50321F4D7110094AE1E /* LaunchScreen.storyboard */; };
+		5CCEF51621F5CF9A0094AE1E /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF51521F5CF9A0094AE1E /* Chair.swift */; };
+		5CCEF51821F5CFCC0094AE1E /* Sofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF51721F5CFCC0094AE1E /* Sofa.swift */; };
+		5CCEF51A21F5CFE90094AE1E /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF51921F5CFE90094AE1E /* Table.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5CCEF50E21F4ED030094AE1E /* AbstractFactory.003.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AbstractFactory.003.jpeg; sourceTree = "<group>"; };
 		5CCEF50F21F4ED030094AE1E /* AbstractFactory.002.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AbstractFactory.002.jpeg; sourceTree = "<group>"; };
 		5CCEF51021F4ED030094AE1E /* AbstractFactory.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AbstractFactory.001.jpeg; sourceTree = "<group>"; };
+		5CCEF51521F5CF9A0094AE1E /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
+		5CCEF51721F5CFCC0094AE1E /* Sofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sofa.swift; sourceTree = "<group>"; };
+		5CCEF51921F5CFE90094AE1E /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,43 @@
 		5CCEF51321F4F3D50094AE1E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5CCEF51D21F5D0670094AE1E /* AbstractFactory */,
+				5CCEF51C21F5D04B0094AE1E /* KitchenFurniture */,
+				5CCEF51B21F5D0330094AE1E /* BedroomFurniture */,
+				5CCEF51421F5CF810094AE1E /* Protocols */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5CCEF51421F5CF810094AE1E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEF51521F5CF9A0094AE1E /* Chair.swift */,
+				5CCEF51721F5CFCC0094AE1E /* Sofa.swift */,
+				5CCEF51921F5CFE90094AE1E /* Table.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5CCEF51B21F5D0330094AE1E /* BedroomFurniture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BedroomFurniture;
+			sourceTree = "<group>";
+		};
+		5CCEF51C21F5D04B0094AE1E /* KitchenFurniture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KitchenFurniture;
+			sourceTree = "<group>";
+		};
+		5CCEF51D21F5D0670094AE1E /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCEF51621F5CF9A0094AE1E /* Chair.swift in Sources */,
+				5CCEF51A21F5CFE90094AE1E /* Table.swift in Sources */,
 				5CCEF4FD21F4D70F0094AE1E /* ViewController.swift in Sources */,
+				5CCEF51821F5CFCC0094AE1E /* Sofa.swift in Sources */,
 				5CCEF4FB21F4D70F0094AE1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
