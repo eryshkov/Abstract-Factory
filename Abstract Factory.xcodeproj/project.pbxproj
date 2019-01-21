@@ -125,22 +125,22 @@
 			isa = PBXGroup;
 			children = (
 				5CCEF51D21F5D0670094AE1E /* AbstractFactory */,
+				5CCEF51421F5CF810094AE1E /* AbstractProducts */,
 				5CCEF53021F5D5220094AE1E /* ConcreteFactory */,
 				5CCEF51C21F5D04B0094AE1E /* KitchenFurniture */,
 				5CCEF51B21F5D0330094AE1E /* BedroomFurniture */,
-				5CCEF51421F5CF810094AE1E /* ProductTypes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		5CCEF51421F5CF810094AE1E /* ProductTypes */ = {
+		5CCEF51421F5CF810094AE1E /* AbstractProducts */ = {
 			isa = PBXGroup;
 			children = (
 				5CCEF51521F5CF9A0094AE1E /* Chair.swift */,
 				5CCEF51721F5CFCC0094AE1E /* Sofa.swift */,
 				5CCEF51921F5CFE90094AE1E /* Table.swift */,
 			);
-			path = ProductTypes;
+			path = AbstractProducts;
 			sourceTree = "<group>";
 		};
 		5CCEF51B21F5D0330094AE1E /* BedroomFurniture */ = {
