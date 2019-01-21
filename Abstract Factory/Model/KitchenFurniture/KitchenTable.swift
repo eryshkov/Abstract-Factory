@@ -6,11 +6,11 @@
 //  Copyright © 2019 Evgeniy Ryshkov. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct KitchenTable: Table {
+    var image: UIImage = UIImage(named: "kitchenTable")!
     var name: String = "Стол"
-    
     var type: String = "Стол для кухни"
     
     

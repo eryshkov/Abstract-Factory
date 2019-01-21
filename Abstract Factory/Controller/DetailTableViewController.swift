@@ -40,21 +40,21 @@ class DetailTableViewController: UITableViewController {
         if let chair = item as? Chair {
             cell.textLabel?.text = chair.type
             cell.detailTextLabel?.text = chair.name
-            cell.imageView?.image = UIImage()
+            cell.imageView?.image = chair.image
             return cell
         }
         
         if let sofa = item as? Sofa {
             cell.textLabel?.text = sofa.type
             cell.detailTextLabel?.text = sofa.name
-            cell.imageView?.image = UIImage()
+            cell.imageView?.image = sofa.image
             return cell
         }
 
         if let table = item as? Table {
             cell.textLabel?.text = table.type
             cell.detailTextLabel?.text = table.name
-            cell.imageView?.image = UIImage()
+            cell.imageView?.image = table.image
             return cell
         }
         

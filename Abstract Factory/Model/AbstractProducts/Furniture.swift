@@ -6,8 +6,8 @@
 //  Copyright © 2019 Evgeniy Ryshkov. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol Furniture {
-    
+    var image: UIImage {get}
 }

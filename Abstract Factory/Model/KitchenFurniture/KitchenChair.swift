@@ -6,11 +6,11 @@
 //  Copyright © 2019 Evgeniy Ryshkov. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct KitchenChair: Chair {
+    var image: UIImage = UIImage(named: "kitchenChair")!
     var name: String = "Стул"
-    
     var type: String = "Стул для кухни"
     
     
