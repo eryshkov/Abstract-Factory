@@ -8,7 +8,7 @@
 
 import Foundation
 
-class BedroomTable: Table {
+struct BedroomTable: Table {
     var name: String = "Стол"
     
     var type: String = "Стол для спальни"

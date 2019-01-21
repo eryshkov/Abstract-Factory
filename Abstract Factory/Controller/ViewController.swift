@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         chair = factory.createChair()
         table = factory.createTable()
         sofa = factory.createSofa()
+        
+        performSegue(withIdentifier: "DetailSegue", sender: self)
     }
     
     @IBAction func bedroomOrderTapped(_ sender: UIButton) {
@@ -33,6 +35,8 @@ class ViewController: UIViewController {
         chair = factory.createChair()
         table = factory.createTable()
         sofa = factory.createSofa()
+        
+        performSegue(withIdentifier: "DetailSegue", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -40,6 +44,7 @@ class ViewController: UIViewController {
         vc.chair = chair
         vc.table = table
         vc.sofa = sofa
+        vc.numberOfItems = 3
     }
     
 }

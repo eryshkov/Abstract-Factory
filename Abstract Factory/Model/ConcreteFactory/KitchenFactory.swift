@@ -8,7 +8,7 @@
 
 import Foundation
 
-class KitchenFactory: AbstractFactory {
+struct KitchenFactory: AbstractFactory {
     func createChair() -> Chair {
         let result = KitchenChair()
         print("\(result.type) создан")

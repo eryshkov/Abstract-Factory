@@ -8,7 +8,7 @@
 
 import Foundation
 
-class BedroomChair: Chair {
+struct BedroomChair: Chair {
     var name: String = "Стул"
     
     var type: String = "Стул для спальни"

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class KitchenSofa: Sofa {
+struct KitchenSofa: Sofa {
     var name: String = "Диван"
     
     var type: String = "Диван для кухни"
