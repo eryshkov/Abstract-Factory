@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //MARK: -
+    var chair: Chair?
+    var table: Table?
+    var sofa: Sofa?
 
     //MARK: -
     override func viewDidLoad() {
@@ -18,10 +22,16 @@ class ViewController: UIViewController {
 
     //MARK: -
     @IBAction func kitchenOrderTapped(_ sender: UIButton) {
-        
+        let factory = KitchenFactory()
+        chair = factory.createChair()
+        table = factory.createTable()
+        sofa = factory.createSofa()
     }
     @IBAction func bedroomOrderTapped(_ sender: UIButton) {
-        
+        let factory = BedroomFactory()
+        chair = factory.createChair()
+        table = factory.createTable()
+        sofa = factory.createSofa()
     }
     
 }
