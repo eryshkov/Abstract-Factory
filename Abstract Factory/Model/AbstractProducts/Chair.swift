@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Chair {
+protocol Chair: Furniture {
     var name: String {get}
     var type: String {get}
 }

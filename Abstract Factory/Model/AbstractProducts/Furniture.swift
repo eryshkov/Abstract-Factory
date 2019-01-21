@@ -1,5 +1,5 @@
 //
-//  Table.swift
+//  Furniture.swift
 //  Abstract Factory
 //
 //  Created by Evgeniy Ryshkov on 21/01/2019.
@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol Table: Furniture {
-    var name: String {get}
-    var type: String {get}
+protocol Furniture {
+    
 }

@@ -10,10 +10,7 @@ import UIKit
 
 class DetailTableViewController: UITableViewController {
     //MARK: -
-    var numberOfItems: Int!
-    var chair: Chair?
-    var table: Table?
-    var sofa: Sofa?
+    var items: [Furniture?] = [Furniture?]()
 
     //MARK: -
     override func viewDidLoad() {
@@ -31,15 +28,36 @@ class DetailTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return numberOfItems
+        return items.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
-//        cell.textLabel?.text = 
+        let item = items[indexPath.row]
+        
+        if let chair = item as? Chair {
+            cell.textLabel?.text = chair.type
+            cell.detailTextLabel?.text = chair.name
+            cell.imageView?.image = UIImage()
+            return cell
+        }
+        
+        if let sofa = item as? Sofa {
+            cell.textLabel?.text = sofa.type
+            cell.detailTextLabel?.text = sofa.name
+            cell.imageView?.image = UIImage()
+            return cell
+        }
 
+        if let table = item as? Table {
+            cell.textLabel?.text = table.type
+            cell.detailTextLabel?.text = table.name
+            cell.imageView?.image = UIImage()
+            return cell
+        }
+        
         return cell
     }
     

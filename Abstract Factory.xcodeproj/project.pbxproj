@@ -25,6 +25,7 @@
 		5CCEF52D21F5D3890094AE1E /* BedroomFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52C21F5D3890094AE1E /* BedroomFactory.swift */; };
 		5CCEF52F21F5D4FF0094AE1E /* KitchenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52E21F5D4FF0094AE1E /* KitchenFactory.swift */; };
 		5CCEF53221F5DB060094AE1E /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF53121F5DB060094AE1E /* DetailTableViewController.swift */; };
+		5CCEF53421F5E26D0094AE1E /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF53321F5E26D0094AE1E /* Furniture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		5CCEF52C21F5D3890094AE1E /* BedroomFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomFactory.swift; sourceTree = "<group>"; };
 		5CCEF52E21F5D4FF0094AE1E /* KitchenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenFactory.swift; sourceTree = "<group>"; };
 		5CCEF53121F5DB060094AE1E /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		5CCEF53321F5E26D0094AE1E /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		5CCEF51421F5CF810094AE1E /* AbstractProducts */ = {
 			isa = PBXGroup;
 			children = (
+				5CCEF53321F5E26D0094AE1E /* Furniture.swift */,
 				5CCEF51521F5CF9A0094AE1E /* Chair.swift */,
 				5CCEF51721F5CFCC0094AE1E /* Sofa.swift */,
 				5CCEF51921F5CFE90094AE1E /* Table.swift */,
@@ -268,6 +271,7 @@
 				5CCEF4FD21F4D70F0094AE1E /* ViewController.swift in Sources */,
 				5CCEF52321F5D1760094AE1E /* BedroomSofa.swift in Sources */,
 				5CCEF51821F5CFCC0094AE1E /* Sofa.swift in Sources */,
+				5CCEF53421F5E26D0094AE1E /* Furniture.swift in Sources */,
 				5CCEF4FB21F4D70F0094AE1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

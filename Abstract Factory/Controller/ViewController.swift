@@ -41,10 +41,9 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! DetailTableViewController
-        vc.chair = chair
-        vc.table = table
-        vc.sofa = sofa
-        vc.numberOfItems = 3
+        vc.items.append(chair)
+        vc.items.append(sofa)
+        vc.items.append(table)
     }
     
 }
