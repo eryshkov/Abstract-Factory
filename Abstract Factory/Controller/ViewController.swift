@@ -27,11 +27,19 @@ class ViewController: UIViewController {
         table = factory.createTable()
         sofa = factory.createSofa()
     }
+    
     @IBAction func bedroomOrderTapped(_ sender: UIButton) {
         let factory = BedroomFactory()
         chair = factory.createChair()
         table = factory.createTable()
         sofa = factory.createSofa()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! DetailTableViewController
+        vc.chair = chair
+        vc.table = table
+        vc.sofa = sofa
     }
     
 }

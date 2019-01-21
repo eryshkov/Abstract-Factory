@@ -24,6 +24,7 @@
 		5CCEF52B21F5D3180094AE1E /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52A21F5D3180094AE1E /* AbstractFactory.swift */; };
 		5CCEF52D21F5D3890094AE1E /* BedroomFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52C21F5D3890094AE1E /* BedroomFactory.swift */; };
 		5CCEF52F21F5D4FF0094AE1E /* KitchenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52E21F5D4FF0094AE1E /* KitchenFactory.swift */; };
+		5CCEF53221F5DB060094AE1E /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF53121F5DB060094AE1E /* DetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		5CCEF52A21F5D3180094AE1E /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		5CCEF52C21F5D3890094AE1E /* BedroomFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomFactory.swift; sourceTree = "<group>"; };
 		5CCEF52E21F5D4FF0094AE1E /* KitchenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenFactory.swift; sourceTree = "<group>"; };
+		5CCEF53121F5DB060094AE1E /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				5CCEF4FC21F4D70F0094AE1E /* ViewController.swift */,
+				5CCEF53121F5DB060094AE1E /* DetailTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				5CCEF51621F5CF9A0094AE1E /* Chair.swift in Sources */,
 				5CCEF52D21F5D3890094AE1E /* BedroomFactory.swift in Sources */,
 				5CCEF52F21F5D4FF0094AE1E /* KitchenFactory.swift in Sources */,
+				5CCEF53221F5DB060094AE1E /* DetailTableViewController.swift in Sources */,
 				5CCEF52521F5D1C90094AE1E /* KitchenChair.swift in Sources */,
 				5CCEF52921F5D27F0094AE1E /* KitchenSofa.swift in Sources */,
 				5CCEF51A21F5CFE90094AE1E /* Table.swift in Sources */,
