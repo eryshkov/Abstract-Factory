@@ -21,6 +21,9 @@
 		5CCEF52521F5D1C90094AE1E /* KitchenChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52421F5D1C90094AE1E /* KitchenChair.swift */; };
 		5CCEF52721F5D24C0094AE1E /* KitchenTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52621F5D24C0094AE1E /* KitchenTable.swift */; };
 		5CCEF52921F5D27F0094AE1E /* KitchenSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52821F5D27F0094AE1E /* KitchenSofa.swift */; };
+		5CCEF52B21F5D3180094AE1E /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52A21F5D3180094AE1E /* AbstractFactory.swift */; };
+		5CCEF52D21F5D3890094AE1E /* BedroomFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52C21F5D3890094AE1E /* BedroomFactory.swift */; };
+		5CCEF52F21F5D4FF0094AE1E /* KitchenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52E21F5D4FF0094AE1E /* KitchenFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		5CCEF52421F5D1C90094AE1E /* KitchenChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChair.swift; sourceTree = "<group>"; };
 		5CCEF52621F5D24C0094AE1E /* KitchenTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenTable.swift; sourceTree = "<group>"; };
 		5CCEF52821F5D27F0094AE1E /* KitchenSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenSofa.swift; sourceTree = "<group>"; };
+		5CCEF52A21F5D3180094AE1E /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		5CCEF52C21F5D3890094AE1E /* BedroomFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomFactory.swift; sourceTree = "<group>"; };
+		5CCEF52E21F5D4FF0094AE1E /* KitchenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,21 +125,22 @@
 			isa = PBXGroup;
 			children = (
 				5CCEF51D21F5D0670094AE1E /* AbstractFactory */,
+				5CCEF53021F5D5220094AE1E /* ConcreteFactory */,
 				5CCEF51C21F5D04B0094AE1E /* KitchenFurniture */,
 				5CCEF51B21F5D0330094AE1E /* BedroomFurniture */,
-				5CCEF51421F5CF810094AE1E /* Protocols */,
+				5CCEF51421F5CF810094AE1E /* ProductTypes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		5CCEF51421F5CF810094AE1E /* Protocols */ = {
+		5CCEF51421F5CF810094AE1E /* ProductTypes */ = {
 			isa = PBXGroup;
 			children = (
 				5CCEF51521F5CF9A0094AE1E /* Chair.swift */,
 				5CCEF51721F5CFCC0094AE1E /* Sofa.swift */,
 				5CCEF51921F5CFE90094AE1E /* Table.swift */,
 			);
-			path = Protocols;
+			path = ProductTypes;
 			sourceTree = "<group>";
 		};
 		5CCEF51B21F5D0330094AE1E /* BedroomFurniture */ = {
@@ -159,8 +166,18 @@
 		5CCEF51D21F5D0670094AE1E /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				5CCEF52A21F5D3180094AE1E /* AbstractFactory.swift */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		5CCEF53021F5D5220094AE1E /* ConcreteFactory */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEF52C21F5D3890094AE1E /* BedroomFactory.swift */,
+				5CCEF52E21F5D4FF0094AE1E /* KitchenFactory.swift */,
+			);
+			path = ConcreteFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCEF52B21F5D3180094AE1E /* AbstractFactory.swift in Sources */,
 				5CCEF51F21F5D0C30094AE1E /* BedroomChair.swift in Sources */,
 				5CCEF52121F5D1260094AE1E /* BedroomTable.swift in Sources */,
 				5CCEF51621F5CF9A0094AE1E /* Chair.swift in Sources */,
+				5CCEF52D21F5D3890094AE1E /* BedroomFactory.swift in Sources */,
+				5CCEF52F21F5D4FF0094AE1E /* KitchenFactory.swift in Sources */,
 				5CCEF52521F5D1C90094AE1E /* KitchenChair.swift in Sources */,
 				5CCEF52921F5D27F0094AE1E /* KitchenSofa.swift in Sources */,
 				5CCEF51A21F5CFE90094AE1E /* Table.swift in Sources */,
