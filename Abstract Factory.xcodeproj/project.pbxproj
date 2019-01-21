@@ -15,6 +15,9 @@
 		5CCEF51621F5CF9A0094AE1E /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF51521F5CF9A0094AE1E /* Chair.swift */; };
 		5CCEF51821F5CFCC0094AE1E /* Sofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF51721F5CFCC0094AE1E /* Sofa.swift */; };
 		5CCEF51A21F5CFE90094AE1E /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF51921F5CFE90094AE1E /* Table.swift */; };
+		5CCEF51F21F5D0C30094AE1E /* BedroomChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF51E21F5D0C30094AE1E /* BedroomChair.swift */; };
+		5CCEF52121F5D1260094AE1E /* BedroomTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52021F5D1260094AE1E /* BedroomTable.swift */; };
+		5CCEF52321F5D1760094AE1E /* BedroomSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEF52221F5D1760094AE1E /* BedroomSofa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		5CCEF51521F5CF9A0094AE1E /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
 		5CCEF51721F5CFCC0094AE1E /* Sofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sofa.swift; sourceTree = "<group>"; };
 		5CCEF51921F5CFE90094AE1E /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		5CCEF51E21F5D0C30094AE1E /* BedroomChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomChair.swift; sourceTree = "<group>"; };
+		5CCEF52021F5D1260094AE1E /* BedroomTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomTable.swift; sourceTree = "<group>"; };
+		5CCEF52221F5D1760094AE1E /* BedroomSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomSofa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		5CCEF51B21F5D0330094AE1E /* BedroomFurniture */ = {
 			isa = PBXGroup;
 			children = (
+				5CCEF51E21F5D0C30094AE1E /* BedroomChair.swift */,
+				5CCEF52021F5D1260094AE1E /* BedroomTable.swift */,
+				5CCEF52221F5D1760094AE1E /* BedroomSofa.swift */,
 			);
 			path = BedroomFurniture;
 			sourceTree = "<group>";
@@ -216,9 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCEF51F21F5D0C30094AE1E /* BedroomChair.swift in Sources */,
+				5CCEF52121F5D1260094AE1E /* BedroomTable.swift in Sources */,
 				5CCEF51621F5CF9A0094AE1E /* Chair.swift in Sources */,
 				5CCEF51A21F5CFE90094AE1E /* Table.swift in Sources */,
 				5CCEF4FD21F4D70F0094AE1E /* ViewController.swift in Sources */,
+				5CCEF52321F5D1760094AE1E /* BedroomSofa.swift in Sources */,
 				5CCEF51821F5CFCC0094AE1E /* Sofa.swift in Sources */,
 				5CCEF4FB21F4D70F0094AE1E /* AppDelegate.swift in Sources */,
 			);
